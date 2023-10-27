@@ -1,4 +1,4 @@
-`#Enter email and password upon first use
+#Enter email and password upon first use
 #finaly go to https://myaccount.google.com/lesssecureapps and turn on less secure apps
 #you are set to go ;)
 
