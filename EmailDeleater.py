@@ -1,4 +1,4 @@
-#Enter email and password upon first use
+`#Enter email and password upon first use
 #finaly go to https://myaccount.google.com/lesssecureapps and turn on less secure apps
 #you are set to go ;)
 
@@ -26,6 +26,7 @@ print("Selected inbox folder")
 
 # search for messages from the sender in the last week
 today = datetime.date.today ()
+#change days to whatever
 week_ago = today - datetime.timedelta (days=7)
 date_str = week_ago.strftime ('%d-%b-%Y')
 typ, data = mail.search (None, f'(FROM "{sender}" SENTSINCE {date_str})')
